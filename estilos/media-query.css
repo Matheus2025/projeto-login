@@ -8,6 +8,21 @@
 
     section#login {
         width: 80vw;
+        height: 285px;
+
+        div.campo > input {
+        background-color: #72f5f0;
+        font-size: 1em;
+        
+        height: 85%;
+        width: calc(62% - 11px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+    
+        transform: translateY(-11px);
+    }
+
     }
 
     section#login > div#imagem {
@@ -41,7 +56,20 @@
     }
 
     section#login{
-        width: 991px;
+        width: 992px;
+        height: 540px;
+        
+    div.campo > input {
+        background-color: #72f5f0;
+        font-size: 1em;
+        
+        height: 85%;
+        width: 93.5%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+    
+        transform: translateY(-10px);
     }
 
     section#login > div#imagem {
@@ -61,6 +89,7 @@
 
     div#formu > p {
         font-size: 1.2em;
+        margin: 10px 0px;
     }
 
     input[type=submit] {
@@ -70,4 +99,5 @@
     a.botao {
         width: 49%;
     }
+}
 }
